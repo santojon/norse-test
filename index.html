@@ -5,12 +5,10 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<script type="text/javascript" src="../../libs/sgfd/base.js"></script>
+		<script type="text/javascript" src="../../libs/sgfd/sgfd.js"></script>
 		<script type="text/javascript">
-			// Loads all needed things to run app. It need 'base.js' loaded to work
-			with (Base) {
-			    progressiveLoad(['../../settings.js', 'conf.js', '../../libs/sgfd/loader.js'], loadScript);
-			}
+			// Loads all needed things to run app. It need 'sgfd.js' loaded to work
+			new Sgfd('conf.js', { externalSettings: '../../settings.js' }).load();
 		</script>
 	</body>
 </html>

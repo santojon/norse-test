@@ -1,7 +1,8 @@
 var appConfig = {
     front: {},
     back: {
-        bwfDomains: ['u']
+        bwfDomains: ['user', 'userfile'],
+        controllers: ['user']
     },
     conf: {
         appName: 'Norse Test',

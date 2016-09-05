@@ -1,0 +1,9 @@
+User: {
+    name: string,
+    username: string,
+    friends: [User],
+    favoriteAlg: {
+        name: string,
+        length: number
+    }
+}
