@@ -1,0 +1,6 @@
+Userfile: {
+    name: string,
+    owner: User,
+    text: string,
+    type: string
+}
