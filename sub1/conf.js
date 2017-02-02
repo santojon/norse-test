@@ -7,8 +7,8 @@ var appConfig = {
     conf: {
         appName: 'Norse Test',
         dependencies: [
-            norse.bwf + '/bwf.full.js',
-            norse.bhdr + '/bhdr.js'
+            norse.bwf.full,
+            norse.bhdr
         ],
         dataPool: 'Bhdr',
         classLoader: 'Bwf',
